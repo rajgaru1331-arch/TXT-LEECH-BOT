@@ -1,1 +1,4 @@
 gunicorn app:app & python3 main.py
+/start - Check if bot is alive
+/upload - Start the download process
+/stop - Stop ongoing process
