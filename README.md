@@ -1,91 +1,47 @@
-## uses 
- repo ko opne kr or vars.py me apna api or api hsh dal or bot token the 
- H per deployed krde ho jayega 
+<h1 align="center">
+  🇮🇳 ᴛᴜsʜᴀʀ ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
+</h1>
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Txt+Uploader+Bot+!)
+
+## 😎 Credit
+
+🥳 Credit Goes To [Tushar](https://t.me/newstudent1885)
+
+  
+## 🔥 Commands
+
+- **`/start`**: ⚡ check bot is alive.
+- **`/tushar`**:  📁 upload txt file.
+- **`/stop`**: 🛑 stop ongoing process.
+- **`/restart`**: 🔮 restart the bot.
+- **`/cookies`**: 🍪 upload cookies file.
+- **`/e2t`**: 📝 edit txt file.
+- **`/yt2txt`**: 🗃️ create txt of yt playlist (owner).
+- **`/sudo add`**: 🎊 add user or group or channel (owner).
+- **`/sudo remove`**: ❌ remove user or group or channel (owner).
+- **`/userlist`**: 📜 list of sudo user/group/channel.
+- **`/help`**: 🎉 for help.
+
+## Guide For Heroku Deployment 
+
+Firstly fill the value of api id,api hash,bot token in vars.py file. After it connect heroku from GitHub and then connect this repo. After it , go to in heroku setting,again fill the api id, api hash,bot token and then deploy. After deployment of this repo,again go to this deployment repo setting and add buildpack and again deploy.
+
+Buildpack - https://github.com/heroku/heroku-buildpack-activestorage-preview
 
 
 
+सर्वप्रथम vars.py file में api id , api hash ,bot token Fill करें।
+उसके बाद heroku में github को connect करके इस repo को conneect कर ले ।
+इसके बाद heroku setting में जाकर फिर से api id , api hash,bot token डालें। और फिर deploy कर दे।
+deploy करने के बाद उसी deploy वाली repo के setting में जाकर buildpack add करके again Deploy करें।
+ 
+Buildpack - https://github.com/heroku/heroku-buildpack-activestorage-preview
 
+## Deploy To Koyeb
 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=advance-txt-uploader&repository=Tushar557845%2FADVANCE-TXT-UPLOADER&branch=main&builder=dockerfile&instance_type=free&instances_min=0&autoscaling_sleep_idle_delay=300&ports=8080%3Bhttp%3B%2F&hc_protocol%5B8080%5D=tcp&hc_grace_period%5B8080%5D=5&hc_interval%5B8080%5D=30&hc_restart_limit%5B8080%5D=3&hc_timeout%5B8080%5D=5&hc_path%5B8080%5D=%2F&hc_method%5B8080%5D=get)
 
+## Deploy To Render
 
-
-<p align="center">
-  <h1 align="center">TXT-LEECH-BOT</h1>
-</p>
-
-A Telegram bot that can download videos from text files containing links, with support for DRM protected content.
-
-## Features
-
-- Download videos from text files
-- Support for multiple video qualities
-- DRM protected content support
-- Custom thumbnail support
-- Progress tracking
-- Batch processing
-
-## Deployment Methods
-
-### Deploy to Heroku
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/20255-ee-085/TXT-LEECH-BOT)
-
-1. Create a Heroku account (skip if you already have one)
-2. Click the Deploy button above
-3. Fill in the required environment variables:
-   - `API_ID`: Get from my.telegram.org
-   - `API_HASH`: Get from my.telegram.org
-   - `BOT_TOKEN`: Get from @BotFather
-4. Click "Deploy App"
-5. Once deployed, ensure the worker dyno is enabled
-
-### Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/20255-ee-085/TXT-LEECH-BOT/blob/main/TXT_Leech_Bot.ipynb)
-
-1. Open the Colab notebook using the button above
-2. Fill in your credentials in the notebook
-3. Run all cells
-4. Bot will be active while the Colab notebook is running
-
-### Local Deployment
-
-1. Clone the repository
-```bash
-git clone https://github.com/20255-ee-085/TXT-LEECH-BOT
-cd TXT-LEECH-BOT
-```
-
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-3. Create .env file with your credentials
-```
-API_ID=your_api_id
-API_HASH=your_api_hash
-BOT_TOKEN=your_bot_token
-```
-
-4. Run the bot
-```bash
-python3 main.py
-```
-
-## Environment Variables
-
-- `API_ID` - Get from my.telegram.org
-- `API_HASH` - Get from my.telegram.org
-- `BOT_TOKEN` - Get from @BotFather
-
-## Commands
-
-- `/start` - Check if bot is alive
-- `/upload` - Start the download process
-- `/stop` - Stop ongoing process
-
-## Credits
-
-- Created by Tu follow krle yaar bs
-
-## License
-
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Tushar557845/ADVANCE-TXT-UPLOADER)
